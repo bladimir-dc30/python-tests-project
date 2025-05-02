@@ -15,3 +15,6 @@ class CalculatorTests(unittest.TestCase):
         
     def test_multiplication(self):
         assert multiplication(10, 5) == 50
+        
+    def test_another_add(self):
+        self.assertGreaterEqual(add(50, 50), 20)
