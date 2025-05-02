@@ -4,7 +4,7 @@ from src.calculator import *
 
 class CalculatorTests(unittest.TestCase):
     def test_add(self):
-        assert add(5, 10) == 15
+        assert add(20, 30) == 50
 
     def test_subtract(self):
         assert subtract(10, 5) == 5
